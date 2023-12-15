@@ -40,11 +40,3 @@ font:
 ```
 
 api documentation: https://docs.api.jikan.moe/
-(advise: javascript fetch or xmlhhtpreqeuest)
-
-
----
-Challenge: 
-recreate, taking as a starting point, the mockup of the web app capable of showing the anime present in the API. The application must also be able to search and show the searched anime if present, otherwise show that there is no result.
-
-good luck broder!
