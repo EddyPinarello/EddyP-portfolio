@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Frontend Mentor | News homepage</title>
+  
+  <script>
+    function showMenu(){
+      const menu = document.querySelector('.mobile-nav');
+      menu.style.display = 'flex'
+    }
+
+    function hideMenu(){
+      const menuClose = document.querySelector('.mobile-nav')
+      menuClose.style.display = 'none'
+    } 
+  </script>
+
+</head>
+<body>
+  <div class="container">
+    <nav class="nav-bar">
+      <a  href=""><img src="/assets/images/logo.svg" alt="logo"> </a>
+      <img class="menu" onclick=showMenu() src="/assets/images/icon-menu.svg" alt="menu">
+      
+      <ul class="list">
+        <li><a href="">Home</a></li>  
+        <li><a href="">New</a></li>  
+        <li><a href="">Popular</a></li>  
+        <li><a href="">Trending</a></li>  
+        <li><a href="">Categories</a></li>  
+      </ul>
+    </nav>
+    <!--MOBILE NAV-->
+    <div class="mobile-nav">
+      <nav>
+        <img class="menu-close" onclick=hideMenu() src="/assets/images/icon-menu-close.svg" alt="menu">
+        <ul class="mobile-nav__menu">
+          <li><a href="">Home</a></li>  
+          <li><a href="">New</a></li>  
+          <li><a href="">Popular</a></li>  
+          <li><a href="">Trending</a></li>  
+          <li><a href="">Categories</a></li>  
+        </ul>
+      </nav>
+    </div>
+    <!--MOBILE NAV-->
+    <div class="top">
+      <div class="top__left">
+       <img class="desktop-img" src="/assets/images/image-web-3-desktop.jpg"  alt="image toy"> 
+       <img class="mobile-img" src="/assets/images/image-web-3-mobile.jpg" alt="logo"> 
+       <div class="top__left__sub">
+          <h1> The Bright Future of Web 3.0 </h1>
+          <div class="subb">
+            <p> We dive into the most evolution of the web that claims to put the power of the platforms back 
+              into the hanks of the people. But is it really fulfillign its promise
+            </p>
+            <button class="btn">READ MORE</button>
+          </div>
+        </div>
+      </div>
+      <div class="top__right">
+          
+        <h2>New</h2>
+        
+        <section>
+          <a  href="">Hydrogen VS Electric Cars</a>
+          <p>Will hydrogen-fueld cars evere catch up to EVs</p>
+        </section>
+        <section>
+          <a  href="">The Down side of AI Artistry</a>
+          <p>What are the possible adverse effetcs of on-demand AI image generation?</p>
+        </section>
+        <section>
+          <a  href="">Is VC Funding Drying Up?</a>
+          <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+        </section>
+        
+      </div>
+      
+    </div>
+    <div class="bottom">
+      <div class="bottom__elements">
+        <div class="image-elements">
+          <img src="/assets/images/image-retro-pcs.jpg"  alt="">
+        </div>
+          
+        <div  class="bottom__text-right">
+          <p class="bottom__elements__numb"> 01</p>
+          <a href="" class="bottom__elements__title"> Reviving retro PCs</a>
+          <p>What happens when pls pcs are given modern upgrades</p>
+        </div>
+      </div>
+      <div class="bottom__elements">
+        <div class="image-elements">
+          
+          <img src="/assets/images/image-top-laptops.jpg"  alt="">
+        </div>
+        <div class="bottom__text-right">
+          <p class="bottom__elements__numb"> 02</p>
+          <a href="" class="bottom__elements__title"> Top 10 laptops of 2022</a>
+          <p>Our best picks for various needs and budgets</p>
+        </div>
+      </div>
+      
+      <div class="bottom__elements">
+        <div class="image-elements">
+          <img src="/assets/images/image-gaming-growth.jpg"  alt="">
+        </div>
+          
+        <div class="bottom__text-right">
+          <p class="bottom__elements__numb"> 03</p>
+          <a href="" class="bottom__elements__title"> The growth of gaming</a>
+          <p>How the pandemic has sparked fresh opportinuties</p>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+ 
+  
+  
+  
+</body>
+</html>
