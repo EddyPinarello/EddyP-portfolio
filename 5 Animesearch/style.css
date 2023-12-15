@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+    font-family: 'Inter', sans-serif;
+    padding: 0px;
+}
+html{
+  width: 100%;
+  height: 100%;
+}
+body{
+  
+  display: flex;
+  justify-content: center;
+}
+.container{
+  max-width: 1200px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  display: flex;
+}
+
+.srcBar{
+  margin: 20px;
+  min-width: 720px;
+  min-height: 50px;
+  border-radius: 8px;
+  font-size: 20px;
+  padding: 10px;
+  border: none;
+  background-color: rgba(74, 101, 196, 0.3);
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1em;
+}
+
+.card {
+ 
+  max-width: 300px;
+  padding: 17px;
+  background-color: #FFFFFF;
+  box-shadow:  10px 10px 20px rgba(183, 183, 183, 0.25), -10px -10px 20px rgba(176, 176, 176, 0.25);
+  border-radius: 16px;
+}
+
+.year-score{
+  padding: 0px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  color: #9C9C9C;
+  font-size: 14px;
+}
+
+.anime-cover {
+  min-width: 300px;
+  
+  max-height: 100%;
+  border-radius: 10px;
+}
+.anime-title{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.episodes{
+  margin-top: -5%;
+  color: #090B15;
+  font-size :16px;
+}
+
+
+.tags{
+  
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap : 0.5em;
+}
+
+.tags li{
+  
+  padding: 3px;
+  background-color: rgba(74, 101, 196, 0.3);
+  border-radius: 5px;
+  font-size: 16px;
+  
+}
+
+@media (max-width: 1200px){
+  .srcBar{
+    margin: 20px;
+    min-width: 720px;
+    min-height: 50px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgba(74, 101, 196, 0.3);
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1em;
+  }
+
+}
+
+@media (max-width:720px){
+  .srcBar{
+    margin: 20px;
+    min-width: 100%;
+    min-height: 50px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgba(74, 101, 196, 0.3);
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1em;
+  }
+
+}
+
+@media (max-width: 360px){
+  .srcBar{
+    margin: 20px;
+    min-width: 100%;
+    min-height: 50px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgba(74, 101, 196, 0.3);
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 1em;
+  }
+
+}
+
