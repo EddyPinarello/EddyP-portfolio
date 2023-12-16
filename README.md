@@ -1,7 +1,11 @@
 here you can find some projects that I may have uploaded in my CV 
 
 0 stacker game 
-https://github.com/EddyPinarello/EddyP-portfolio/assets/149050257/b3433354-3135-48de-9e9d-f6cf6f0f3df6
+ 
+
+https://github.com/EddyPinarello/EddyP-portfolio/assets/149050257/117f31f8-a894-46ad-a406-348ec3ad449d
+
+
 
  4 news-homepage-main responsive)
 ![image](https://github.com/EddyPinarello/EddyP-portfolio/assets/149050257/72a7308d-bca3-4105-b7c6-9926ba05e231)
