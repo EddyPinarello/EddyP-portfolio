@@ -1,3 +1,7 @@
+
+
+https://github.com/EddyPinarello/EddyP-portfolio/assets/149050257/9c31e77a-b500-43ab-99b0-e2e315a33c33
+
 color:
 - backgorund: #FBFBFD
 - card: #FFFFFF
