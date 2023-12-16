@@ -1,10 +1,8 @@
 here you can find some projects that I may have uploaded in my CV 
 
 0 stacker game 
- 
 
-https://github.com/EddyPinarello/EddyP-portfolio/assets/149050257/117f31f8-a894-46ad-a406-348ec3ad449d
-
+![ezgif com-video-to-gif-converted](https://github.com/EddyPinarello/EddyP-portfolio/assets/149050257/76288252-2190-42a5-b55b-19bc8721981c)
 
 
  4 news-homepage-main responsive)
