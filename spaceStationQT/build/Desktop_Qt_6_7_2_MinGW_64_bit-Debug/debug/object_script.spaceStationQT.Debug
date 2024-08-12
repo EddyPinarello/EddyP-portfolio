@@ -1,0 +1,11 @@
+debug/AddSensorDialog.o
+debug/GeigerSensor.o
+debug/ModifySensorDialog.o
+debug/PressureSensor.o
+debug/TemperatureSensor.o
+debug/abstractsensor.o
+debug/main.o
+debug/mainwindow.o
+debug/moc_AddSensorDialog.o
+debug/moc_ModifySensorDialog.o
+debug/moc_mainwindow.o
