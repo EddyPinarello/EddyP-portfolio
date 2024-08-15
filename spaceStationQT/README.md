@@ -32,12 +32,12 @@ Ensure you have the following installed on your system:
    git clone https://github.com/yourusername/sensor-management-qt.git
    cd sensor-management-qt
 
-**Generate Makefile using qmake:**
+2. **Generate Makefile using qmake:**
 ``` 
 qmake spaceStationQT.pro
 ```
 
-**Compile the application:**
+3. **Compile the application:**
 ```
 make
 ```
@@ -46,7 +46,7 @@ On Windows, use:
 nmake
 ```
 
-**Run the application:**
+4. **Run the application:**
 
 On Linux or macOS:
 ```
