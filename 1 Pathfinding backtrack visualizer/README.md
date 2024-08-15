@@ -8,14 +8,10 @@ This project is a visualization of the A* pathfinding algorithm using Python and
 
 ## Installation
 
-1. **Clone the repository:**
-
-   ```bash
-   git clone https://github.com/yourusername/a-star-pathfinding-visualization.git
-   cd a-star-pathfinding-visualization
-2. **Install the required dependencies:**
+**Install the required dependencies:**
    ```bash
    pip install pygame
-3. **Run**
+```
+ **Run**
    ```bash
    python main.py
