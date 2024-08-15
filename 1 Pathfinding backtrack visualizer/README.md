@@ -16,6 +16,6 @@ This project is a visualization of the A* pathfinding algorithm using Python and
 2. **Install the required dependencies:**
    ```bash
    pip install pygame
-3. ** Run **
+3. **Run**
    ```bash
    python main.py
