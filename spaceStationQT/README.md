@@ -29,8 +29,8 @@ Ensure you have the following installed on your system:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/sensor-management-qt.git
-   cd sensor-management-qt
+   git clone https://github.com/EddyPinarello/EddyP-portfolio.git
+   cd src
 
 2. **Generate Makefile using qmake:**
 ``` 
