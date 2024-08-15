@@ -39,7 +39,9 @@ qmake spaceStationQT.pro
 make
 
 On Windows, use:
+```
 nmake
+```
 
 **Run the application:**
 On Linux or macOS:
