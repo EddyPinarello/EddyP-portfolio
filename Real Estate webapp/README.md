@@ -16,26 +16,29 @@ Before you begin, ensure you have met the following requirements:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/realestate-webapp.git
-cd realestate-webapp
+git clone https://github.com/EddyPinarello/EddyP-portfolio/tree/main/Real%20Estate%20webapp
+cd Real\ Estate\ webapp
+
 ```
-### 2. Dependencies for API
+### Set Up the Backend (API)
+Navigate to the api directory and install the necessary dependencies:
 ```
 cd api
 npm install @prisma/client bcrypt body-parser cors dotenv express jsonwebtoken mongodb nodemon prisma
 ```
-### 3. Run server
+### Start the Backend Server:
 ```
 npm run dev
 ```
 
-### 4. Dependencies for CLIENT
+### Set Up the Frontend (Client):
+Next, move to the client directory and install the frontend dependencies
 ```
 cd ..
 cd client
 npm install axios dompurify leaflet react-leaflet react-quill react-router-dom sass socket.io socket.io-client timeago.js @vitejs/plugin-react eslint eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-react-refresh vite
 ```
-### 5. Dependencies for CLIENT
+### Start the Frontend Development Server
 ```
 npm run dev
 ```
