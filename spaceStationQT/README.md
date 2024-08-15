@@ -34,25 +34,25 @@ Ensure you have the following installed on your system:
 
 2. **Generate Makefile using qmake:**
 ``` 
-qmake spaceStationQT.pro
+   qmake spaceStationQT.pro
 ```
 
 3. **Compile the application:**
 ```
-make
+   make
 ```
 On Windows, use:
 ```
-nmake
+   nmake
 ```
 
 4. **Run the application:**
 
 On Linux or macOS:
 ``` bash
-./spaceStationQT
+   ./spaceStationQT
 ```
 On Windows:
 ```
-spaceStationQT.exe
+   spaceStationQT.exe
 ```
