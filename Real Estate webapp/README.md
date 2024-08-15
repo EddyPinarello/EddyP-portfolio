@@ -13,13 +13,6 @@ Before you begin, ensure you have met the following requirements:
 
 ## Installation
 
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/EddyPinarello/EddyP-portfolio/tree/main/Real%20Estate%20webapp
-cd Real\ Estate\ webapp
-
-```
 ### Set Up the Backend (API)
 Navigate to the api directory and install the necessary dependencies:
 ```
