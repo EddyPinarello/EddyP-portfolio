@@ -49,7 +49,7 @@ nmake
 4. **Run the application:**
 
 On Linux or macOS:
-```
+``` bash
 ./spaceStationQT
 ```
 On Windows:
