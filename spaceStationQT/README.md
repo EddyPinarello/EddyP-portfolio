@@ -33,19 +33,26 @@ Ensure you have the following installed on your system:
    cd sensor-management-qt
 
 **Generate Makefile using qmake:**
+``` 
 qmake spaceStationQT.pro
+```
 
 **Compile the application:**
+```
 make
-
+```
 On Windows, use:
 ```
 nmake
 ```
 
 **Run the application:**
-On Linux or macOS:
-./spaceStationQT
 
+On Linux or macOS:
+```
+./spaceStationQT
+```
 On Windows:
+```
 spaceStationQT.exe
+```
